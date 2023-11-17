@@ -48,9 +48,7 @@ Like most data analytics projects, there are certain key questions that I am see
 - Data visualization - Tableau
 
 ## Data Source
-My personal financial transactions took through a mix of both bank and cash. However, banking transactions comprised of a majority of these transactions, hence, the data source is consolidated bank statements which have been retrieved from netbanking portal.
-
-Consolidated bank statements retrieved from the net banking portal form the primary data source, capturing the majority of financial transactions. While primarily sourced from banking transactions, it's acknowledged that not all expenses are covered due to transactions made through platforms like Paytm or cash for small-value transaction.
+Consolidated bank statements retrieved from the net banking portal form the primary data source, capturing the majority of financial transactions. While primarily sourced from banking transactions, t's important to acknowledge that not all expenses are accounted for, particularly those involving small-value payments made through platforms like Paytm or in cash.
 
 ## Data Preparation
 The data preparation stage involves understanding the file type and loading it into the desired tool. In this case, the personal financial statements, stored as PDF documents, have been downloaded from the bank's internet banking portal and loaded into Microsoft Excel.
