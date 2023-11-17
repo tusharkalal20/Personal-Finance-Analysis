@@ -33,7 +33,7 @@ Like most data analytics projects, there are certain key questions that I am see
 
 7. Investments:
    - Tracking assets of investments
-   - Current investment values
+   - Current value of investments made
 
 8. Financial Planning:
    - Evaluation of investment adequacy based on income
