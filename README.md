@@ -13,7 +13,7 @@ Like most data analytics projects, there are certain key questions that I am see
    - Total Investments
 
 2. Income Analysis:
-   - Breakdown of income by different categories
+   - Breakdown of income by different sources
 
 3. Trends:
    - Income trends over time
