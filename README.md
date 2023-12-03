@@ -52,31 +52,32 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - Null Values
 - Date formatting
 - Data Labelling: A key requirement to conduct the required analysis is to have the description of each transaction and categorize with 'Type' and 'Component'.
-- Data Loading: Since a financial statement contains confidential information, it is typically encrypted with a password to prevent unauthorised use. This encryption inhibited the creation of an Excel connection to the pdf files and load the data into a spreadsheet. To remediate this situation, I decrypted the file using a pdf tool.
+- Data Loading: Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
 ## Inferences
 **1. Observations on Income:**
-- From the line graph, it can be inferred that my income started seeing growth from 2020 and grew by a high amount in 2022. 
-- I started earning in 2021. Hence, up until 2021 income comprised primarily of savings interest on the existing amount. 
-- The decline in 2023 is only because this data has been captured till June 2023 which only account half of 2023 income.
-- Full-time Salary formed around 77% of the Total Income while Stipend contributed 18% followed by Tutoring (4%) and Savings Interest Income (0.8%).
+- Analyzing the line graph, it is evident that my income exhibited growth starting in 2020, with a substantial increase in 2022.
+- I initiated earning in 2021; thus, until that year, my income predominantly consisted of savings interest on the existing amount.
+- The apparent decline in 2023 is attributed to the data capture being limited to June 2023, encompassing only half of the income for that year.
+- The breakdown of income sources reveals that full-time salary constituted approximately 77% of the total income, followed by stipends at 18%, tutoring at 4%, and savings interest income at 0.8%.
 
 
 **2. Observations on Expenditure:**
-- Expenses dropped moderately from 2019 - 2020 but kept increasing from 2020 implying a positive correlation between Increase and Expenses.
-- My top 4 areas where I spent the most on are:
-   - Insurance & Medical - 33% (A big chunk of this went into ear procedure followed by family health insurance paid for 2 years)
+- Expenses experienced a moderate decline from 2019 to 2020, but they showed a continuous upward trend from 2020 onward, indicating a positive correlation between the increase in income and the rise in expenses.
+- My primary areas of expenditure, constituting the majority of my spending, are as follows:
+   - Insurance & Medical - 33% (A significant portion of this amount was allocated to an ear procedure, followed by family health insurance covering a two-year period).
    - Wedding – 16%
-   - Utilities – 14% (includes Groceries, Society Maintenance, Internet, Gas, Telephone, Fuel)
-   - Food – 9% (includes both Dining Out and Fast-Food expenses)
-- The Average Monthly Expenses is INR 16K
+   - Utilities – 14% (encompassing groceries, society maintenance, internet, gas, telephone, and fuel)
+   - Food – 9% (including expenses from both dining out and fast-food consumption)
+   - The average monthly expenses amount to INR 16,000.
+   - Insurance & Medical - 33% (A big chunk of this went into ear procedure followed by family health insurance paid for 2 years)
 
 
 **3. Savings & Investments:**
-   - A total of 70K in Savings & Investments makes about a meagre 8% of the Total Income across a period of 5 years. This is a very small figure that needs to be drastically increased. A small contribution to Savings & Investments could primarily be because of 2 reasons:
-      - Failure to allocate funds to investments
-      - Lack of available money to save and invest
+   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, constituting a mere 8% of the total income. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
+      - Failure to allocate sufficient funds to investments.
+      - Insufficient available funds for saving and investing.Failure to allocate funds to investments
+      
+Our analysis suggests that the lack of investments stems from high expenses, which consume 71% of the total income, leaving limited funds available for investment. Further investigation merits a comparison between essential and discretionary spending to identify potential areas for reduction.
 
-It is evident from our analysis that the reason why investments were not made is because of high expenses(71% of the total money earned) in turn leading to a lack of available money dispensable to invest. To further investigate, there is merit in comparing my expenditure made on necessary things v/s leisure things that could potentially have been avoided.
-
-It is discovered that 49% of the expenses were necessary expenses and could not have been avoided. On the contrary, there is a considerable amount of expenses that could have either been decreased (less expenses on wedding) or avoided altogether (frequently dining out) 
+Upon scrutiny, it is evident that 49% of the expenses are deemed necessary and unavoidable. However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, could have either been reduced or entirely avoided.
