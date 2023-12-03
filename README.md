@@ -11,16 +11,16 @@ This Github documentation aims to demonstrate the end-to-end process of Personal
    - Total Investments
 
 2. Income Analysis:
-   - Breakdown of Income by Different Sources
    - Income Trend over Time
+   - Breakdown of Income by Different Sources
 
 3. Income AnalysisExpenditure Analysis:
    - Expenditure Trend over Time
-   - Categorization of Expenses by Percentage and Amount
+   - Breakdown of Expenses by Percentage and Amount
 
 6. Investments:
-   - Allocation of investments by Assets
-   - Present Value of Investments
+   - Allocation of Funds by different Assets
+   - Change in Savings & Investments over Time
 
 ## Tools Used
 - Data Loading and Cleaning - Microsoft Excel
@@ -48,8 +48,14 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - Unnamed Columns
 - Null Values
 - Date formatting
-- Data Labelling: A key requirement to conduct the required analysis is to have the description of each transaction and categorize with 'Type' and 'Component'.
+- Data Labelling: A crucial requirement to conduct the required analysis is to have the description of each transaction and the categorization by 'Type' and 'Component'.
 - Data Loading: Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
+
+## Dashboard
+You can visit the Tableau dashboard here [Personal Finance Dashboard](https://public.tableau.com/app/profile/tushar.kalal/viz/PersonalFinanceDashboard2/Dashboard)
+
+![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/36fd7134-8a51-4b75-9009-344a6037a8c2)
+
 
 ## Inferences
 **1. Observations on Income:**
