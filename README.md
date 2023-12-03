@@ -54,7 +54,8 @@ As is evident, the raw data has some quality issues which need to be addressed.
 ## Dashboard
 You can visit the Tableau dashboard here [Personal Finance Dashboard](https://public.tableau.com/app/profile/tushar.kalal/viz/PersonalFinanceDashboard2/Dashboard)
 
-![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/36fd7134-8a51-4b75-9009-344a6037a8c2)
+![Dashboard Image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/0a789ea5-4049-4a2e-a19f-61906e32e84a)
+
 
 
 ## Inferences
