@@ -61,9 +61,9 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 ## Inferences
 **1. Observations on Income:**
 - Analyzing the line graph, it is evident that my income exhibited growth starting in 2020, with a substantial increase in 2022.
-- I initiated earning in 2021; thus, until that year, my income predominantly consisted of savings interest on the existing amount.
-- The apparent decline in 2023 is attributed to the data capture being limited to June 2023, encompassing only half of the income for that year.
-- The breakdown of income sources reveals that full-time salary constituted approximately 77% of the total income, followed by stipends at 18%, tutoring at 4%, and savings interest income at 0.8%.
+- I started working in 2021; thus, until that year, my income predominantly consisted of savings interest on the existing amount.
+- The apparent decline in 2023 is attributed to the data capture being limited to June 2023, accounting only half of the income for that year.
+- The breakdown of income sources reveals that full-time salary constituted approximately 77% of the total income, followed by internship stipends at 18%, income earned through teaching mathematics at 4%, and savings interest income at 0.8%.
 
 
 **2. Observations on Expenditure:**
@@ -71,17 +71,13 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 - My primary areas of expenditure, constituting the majority of my spending, are as follows:
    - Insurance & Medical - 33% (A significant portion of this amount was allocated to an ear procedure, followed by family health insurance covering a two-year period).
    - Wedding – 16%
-   - Utilities – 14% (encompassing groceries, society maintenance, internet, gas, telephone, and fuel)
-   - Food – 9% (including expenses from both dining out and fast-food consumption)
+   - Utilities – 14% (includes groceries, society maintenance, internet, gas, telephone, and fuel)
+   - Food – 9% (includes expenses from both dining out and fast-food consumption)
    - The average monthly expenses amount to INR 16,000.
-   - Insurance & Medical - 33% (A big chunk of this went into ear procedure followed by family health insurance paid for 2 years)
-
 
 **3. Savings & Investments:**
    - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, constituting a mere 8% of the total income. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
       - Failure to allocate sufficient funds to investments.
-      - Insufficient available funds for saving and investing.Failure to allocate funds to investments
+      - Insufficient available funds for saving and investing.
       
-Our analysis suggests that the lack of investments stems from high expenses, which consume 71% of the total income, leaving limited funds available for investment. Further investigation merits a comparison between essential and discretionary spending to identify potential areas for reduction.
-
-Upon scrutiny, it is evident that 49% of the expenses are deemed necessary and unavoidable. However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, could have either been reduced or entirely avoided.
+Our analysis suggests that the lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income). To identify potential areas for savings, a comparison between essential and discretionary spending was carried out. It is evident that 49% of the expenses are deemed necessary and unavoidable. However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
