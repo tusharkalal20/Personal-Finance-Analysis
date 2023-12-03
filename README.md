@@ -12,16 +12,13 @@ This Github documentation aims to demonstrate the end-to-end process of Personal
 
 2. Income Analysis:
    - Breakdown of Income by Different Sources
-
-3. Trends:
    - Income Trend over Time
-   - Expenditure Trend over Time
-   - Correlation between Income Growth and Expenditure
 
-4. Expense Categories:
+3. Income AnalysisExpenditure Analysis:
+   - Expenditure Trend over Time
    - Categorization of Expenses by Percentage and Amount
 
-5. Investments:
+6. Investments:
    - Allocation of investments by Assets
    - Present Value of Investments
 
