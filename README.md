@@ -55,14 +55,14 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - Data Loading: Since a financial statement contains confidential information, it is typically encrypted with a password to prevent unauthorised use. This encryption inhibited the creation of an Excel connection to the pdf files and load the data into a spreadsheet. To remediate this situation, I decrypted the file using a pdf tool.
 
 ## Inferences
-1. Observations on Income: 
+**1. Observations on Income:**
 - From the line graph, it can be inferred that my income started seeing growth from 2020 and grew by a high amount in 2022. 
 - I started earning in 2021. Hence, up until 2021 income comprised primarily of savings interest on the existing amount. 
 - The decline in 2023 is only because this data has been captured till June 2023 which only account half of 2023 income.
 - Full-time Salary formed around 77% of the Total Income while Stipend contributed 18% followed by Tutoring (4%) and Savings Interest Income (0.8%).
 
 
-2. Expenditure Observations
+**2. Observations on Expenditure:**
 - Expenses dropped moderately from 2019 - 2020 but kept increasing from 2020 implying a positive correlation between Increase and Expenses.
 - My top 4 areas where I spent the most on are:
    - Insurance & Medical - 33% (A big chunk of this went into ear procedure followed by family health insurance paid for 2 years)
@@ -72,13 +72,9 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - The Average Monthly Expenses is INR 16K
 
 
-3. Savings & Investments
+**3. Savings & Investments:**
    - A total of 70K in Savings & Investments makes about a meagre 8% of the Total Income across a period of 5 years. This is a very small figure that needs to be drastically increased. A small contribution to Savings & Investments could primarily be because of 2 reasons:
       - Failure to allocating funds to investments
       - Lack of available money to save and invest
 
-It is evident from our analysis that the reason why investments were not made is because of high expenses(71%) in turn leading to a lack of available money dispensable to invest. To further investigate if I spent on things that were necessary or leisure expenses that could potentially have been avoided. 
-
-- Evaluation of investment adequacy based on income
-   - Consideration of the need for increased focus on investing
-   - Assessment of investment returns in comparison to inflation
+It is evident from our analysis that the reason why investments were not made is because of high expenses(71% of the total money earned) in turn leading to a lack of available money dispensable to invest. To further investigate, there is merit in comparing my expenditure made on necessary things v/s leisure things that could potentially have been avoided. 
