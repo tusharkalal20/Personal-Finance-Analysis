@@ -74,7 +74,9 @@ As is evident, the raw data has some quality issues which need to be addressed.
 
 **3. Savings & Investments:**
    - A total of 70K in Savings & Investments makes about a meagre 8% of the Total Income across a period of 5 years. This is a very small figure that needs to be drastically increased. A small contribution to Savings & Investments could primarily be because of 2 reasons:
-      - Failure to allocating funds to investments
+      - Failure to allocate funds to investments
       - Lack of available money to save and invest
 
-It is evident from our analysis that the reason why investments were not made is because of high expenses(71% of the total money earned) in turn leading to a lack of available money dispensable to invest. To further investigate, there is merit in comparing my expenditure made on necessary things v/s leisure things that could potentially have been avoided. 
+It is evident from our analysis that the reason why investments were not made is because of high expenses(71% of the total money earned) in turn leading to a lack of available money dispensable to invest. To further investigate, there is merit in comparing my expenditure made on necessary things v/s leisure things that could potentially have been avoided.
+
+It is discovered that 49% of the expenses were necessary expenses and could not have been avoided. On the contrary, there is a considerable amount of expenses that could have either been decreased (less expenses on wedding) or avoided altogether (frequently dining out) 
