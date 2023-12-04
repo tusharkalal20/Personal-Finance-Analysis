@@ -8,8 +8,8 @@
 - [Data Loading](#data-loading)
 - [Data Cleaning](#data-cleaning)
 - [Reporting Wireframing](#reporting-wireframing)
-- [Data Visualization](#Dashborad)
-- [Inferences](#Inferences)
+- [Data Visualization](#data-visualization)  <!-- Fixed anchor link -->
+- [Inferences](#inferences)  <!-- Fixed anchor link -->
 - [Conclusion](#conclusion)
 
 ## 1. Objective
