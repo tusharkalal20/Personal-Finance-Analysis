@@ -86,8 +86,8 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 
 ## Inferences
 **i. Observations on Income:**
-- Analyzing the line graph, it is evident that my income exhibited growth starting in 2020, with a substantial increase in 2022.
-- I started working in 2021; thus, until that year, my income predominantly consisted of savings interest on the existing amount.
+- Analyzing the line graph, it is evident that income exhibited growth starting in 2020, with a substantial increase in 2022.
+- I started working in 2021; thus, until that year, income predominantly consisted of savings interest on the existing amount.
 - The apparent decline in 2023 is attributed to the data capture being limited to June 2023, accounting only half of the income for that year.
 - The breakdown of income sources reveals that **full-time salary constituted ~77% of the total income**, followed by internship stipends at 18%, income earned through teaching mathematics at 4%, and savings interest income at 0.8%.
 
@@ -102,11 +102,11 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
    - The average monthly expenses amount to INR 16,000.
 
 **iii. Savings & Investments:**
-   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, implying **a mere 8% of the total income was saved/invested**. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
+   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, implying that **only 8% of the money was saved/invested**. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
       - Failure to allocate sufficient funds to investments.
       - Insufficient available funds for saving and investing.
-   - Our analysis suggests that the **lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income).**
-      - To identify potential areas for savings, a comparison between essential and discretionary spending was carried out and it was found that **49% of the expenses are deemed necessary and unavoidable**.
+   - Our analysis suggests that the **lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income).** To identify potential areas for savings, a comparison between essential and discretionary spending was carried out 
+      - It was found that **49% of the expenses are deemed necessary and unavoidable**.
       - However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
 
 ## Conclusion
