@@ -6,7 +6,7 @@
 - [Tools Used](tols-used)
 - [Data Source](data-source)
 - [Data Loading](data-loading)
-- [Reporting Wireframing]()reporting-wireframing)
+- [Reporting Wireframing](reporting-wireframing)
 - [Dashboard](dashboard)
 - [Inferences](Inferences)
 - [Conclusion](conclusion)
