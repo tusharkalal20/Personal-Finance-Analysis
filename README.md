@@ -1,5 +1,8 @@
 # Personal-Finance-Project
 
+## Table of Contents
+- [Objective](#Objective)
+
 ## Objective
 This Github documentation aims to demonstrate the end-to-end process of Personal Finance Data Analysis project, which is a comprehensive analysis of my financial statements, shedding light on my income, expenditure, and investments.
 
