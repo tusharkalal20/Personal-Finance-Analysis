@@ -1,16 +1,16 @@
 # Personal-Finance-Project
 
 ## Table of Contents
-- [Objective](#Objective)
-- [Key Requirements](#key-requirements)
-- [Tools Used](#tools-used)
-- [Data Source](#data-source)
-- [Data Loading](#data-loading)
-- [Data Cleaning](#data-cleaning)
-- [Reporting Wireframing](#reporting-wireframing)
-- [Data Visualization](#Dashborad)
-- [Inferences](#Inferences)
-- [Conclusion](#conclusion)
+- [Objective](#1.-Objective)
+- [Key Requirements](#2.-key-requirements)
+- [Tools Used](#3.-tools-used)
+- [Data Source](#4.-data-source)
+- [Data Loading](#5.-data-loading)
+- [Data Cleaning](#6.-data-cleaning)
+- [Reporting Wireframing](#7.-reporting-wireframing)
+- [Data Visualization](#8.-Dashborad)
+- [Inferences](#9.-Inferences)
+- [Conclusion](#10.-conclusion)
 
 ## 1. Objective
 This Github documentation aims to demonstrate the end-to-end process of Personal Finance Data Analysis project, which is a comprehensive analysis of my financial statements, shedding light on my income, expenditure, and investments.
