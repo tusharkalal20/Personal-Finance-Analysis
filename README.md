@@ -36,12 +36,12 @@ Since the information presented in this project pertains to my personal and conf
 The data preparation stage involved loading the source data into Excel and identifying the limitations of data that may cause obstacles in the analysis and reporting. 
 In this case, the personal financial statements, stored as PDF documents, were downloaded to the local storage from the bank's portal and loaded into Microsoft Excel.
 
-![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/a6b9da25-5515-4b95-95cb-d3faa0ad36fd)
+![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/12b1fd6b-c157-47ee-85bb-9a516ee595a7)
 
 
 Below is a preview of how the data looks in one of the yearly statements:
 
-![Snapshot](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/f2bf68ed-5cf6-466c-8f0a-70d9edfc0837)
+![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/7bef3b28-7e3e-467c-8c02-4db361e40386)
 
 
 As is evident, the raw data has some quality issues which need to be addressed.
