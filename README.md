@@ -91,7 +91,6 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 - The apparent decline in 2023 is attributed to the data capture being limited to June 2023, accounting only half of the income for that year.
 - The breakdown of income sources reveals that **full-time salary constituted ~77% of the total income**, followed by internship stipends at 18%, income earned through teaching mathematics at 4%, and savings interest income at 0.8%.
 
-
 **ii. Observations on Expenditure:**
 - Expenses experienced a moderate decline from 2019 to 2020, but they showed a continuous upward trend from 2020 onward, indicating **a positive correlation between the increase in income and the rise in expenses.**
 - My primary areas of expenditure, constituting the majority of my spending, are as follows:
