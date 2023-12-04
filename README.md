@@ -6,8 +6,9 @@
 - [Tools Used](tols-used)
 - [Data Source](data-source)
 - [Data Loading](data-loading)
+- [Data Cleaning](data-cleaning)
 - [Reporting Wireframing](reporting-wireframing)
-- [Dashboard](dashboard)
+- [Data Visualization](Reports)
 - [Inferences](Inferences)
 - [Conclusion](conclusion)
 
@@ -50,15 +51,16 @@ In this case, the personal financial statements, stored as PDF documents, were d
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/12b1fd6b-c157-47ee-85bb-9a516ee595a7)
 
 
+## Data Cleaning
 Below is a preview of how the data looks in one of the yearly statements:
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/7bef3b28-7e3e-467c-8c02-4db361e40386)
 
 
 As is evident, the raw data has some quality issues which need to be addressed.
-- Unnamed Columns
-- Null Values
-- Date formatting
+- Unnamed Columns: Labeling the fields is important to seamlessly undertake analysis and create reports 
+- Null Values: There are cells with null values which have been mindfully discarded
+- Date formatting: I have formatted the date in dd-mm-yy format and created an additional column that stores the date information in mm/dd/yy (US format)
 - Data Labelling: A crucial requirement to conduct the required analysis is to have the description of each transaction and the categorization by 'Type' and 'Component'.
 - Data Loading: Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
@@ -67,7 +69,7 @@ As is evident, the raw data has some quality issues which need to be addressed.
 ![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
 
 
-## Dashboard
+## Reports
 You can visit the Tableau dashboard here [Personal Finance Dashboard](https://public.tableau.com/app/profile/tushar.kalal/viz/PersonalFinanceDashboard2/Dashboard)
 
 ![Dashboard Image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/0a789ea5-4049-4a2e-a19f-61906e32e84a)
