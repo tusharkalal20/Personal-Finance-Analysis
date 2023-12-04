@@ -53,7 +53,7 @@ As is evident, the raw data has some quality issues which need to be addressed.
 
 ## Reporting Wireframing
 
-![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/20079575-5058-423e-909c-36470855a6f5)
+![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
 
 
 ## Dashboard
