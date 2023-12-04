@@ -69,7 +69,8 @@ In an attempt to create the basic layout of the dashboard and the required repor
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
 
-![Dashboard Canvas Breakdown](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/a9e08895-c76c-4174-bdb4-effef0233d33)
+![Dashboard Canvas Breakdown](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/6c436588-7c9d-492a-952e-26d9ee4a0d73)
+
 
 
 ## Dashboard
