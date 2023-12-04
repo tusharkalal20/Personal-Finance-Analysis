@@ -8,7 +8,7 @@
 - [Data Loading](#data-loading)
 - [Data Cleaning](#data-cleaning)
 - [Reporting Wireframing](#reporting-wireframing)
-- [Data Visualization](#data-visualization)  <!-- Fixed anchor link -->
+- [Dashboard](#dashboard)
 - [Inferences](#inferences)  <!-- Fixed anchor link -->
 - [Conclusion](#conclusion)
 
