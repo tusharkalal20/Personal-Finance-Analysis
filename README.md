@@ -1,4 +1,4 @@
-# Personal-Finance-Project
+# Personal Finance Analysis
 
 ## Table of Contents
 - [Objective](#objective)
