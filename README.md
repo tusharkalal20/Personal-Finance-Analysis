@@ -65,8 +65,12 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - **Data Loading:** Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
 ## Reporting Wireframing
+In an attempt to create the basic layout of the dashboard and the required reports, I have used Powerpoint. This is just used as a reference. It is possible that based on the actual data, the charts layout may have to be modified. Nevertheless, it is a good starting point of how the outcome may look. Below is a break-down of the interface:
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
+
+
+![Dashboard Canvas Breakdown](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/2086629f-df0c-405c-aedd-7f1583b7b225)
 
 
 ## Dashboard
