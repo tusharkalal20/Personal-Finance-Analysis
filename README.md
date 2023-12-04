@@ -51,6 +51,11 @@ As is evident, the raw data has some quality issues which need to be addressed.
 - Data Labelling: A crucial requirement to conduct the required analysis is to have the description of each transaction and the categorization by 'Type' and 'Component'.
 - Data Loading: Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
+## Reporting Wireframing
+
+![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/20079575-5058-423e-909c-36470855a6f5)
+
+
 ## Dashboard
 You can visit the Tableau dashboard here [Personal Finance Dashboard](https://public.tableau.com/app/profile/tushar.kalal/viz/PersonalFinanceDashboard2/Dashboard)
 
@@ -81,3 +86,6 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
       - Insufficient available funds for saving and investing.
       
 Our analysis suggests that the lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income). To identify potential areas for savings, a comparison between essential and discretionary spending was carried out. It is evident that 49% of the expenses are deemed necessary and unavoidable. However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
+
+## Conclusion
+In summary, the project effectively demonstrates the thorough process of analyzing individual financial statements. Using consolidated bank statements as the primary data source, the project covers key aspects such as income, expenditure, and investments. Utilizing tools like Microsoft Excel for data loading and cleaning, Microsoft PowerPoint for reporting wireframing, and Tableau for data visualization, the project not only highlights income trends, expenditure patterns, and savings behaviors but also addresses data quality issues. The resulting Tableau dashboard provides a visually informative representation of the financial data, offering valuable insights into my financial journey and highlighting potential areas for improvement in savings and investments.
