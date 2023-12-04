@@ -8,7 +8,7 @@
 - [Data Loading](data-loading)
 - [Data Cleaning](data-cleaning)
 - [Reporting Wireframing](reporting-wireframing)
-- [Data Visualization](Reports)
+- [Data Visualization](Dashborad)
 - [Inferences](Inferences)
 - [Conclusion](conclusion)
 
