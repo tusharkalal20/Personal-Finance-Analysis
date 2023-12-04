@@ -17,6 +17,7 @@ This Github documentation aims to demonstrate the end-to-end process of Personal
 
 ## Key Requirements
 **i. KPIs:**
+   - Available Balance
    - Total Income
    - Total Expenditure
    - Total Savings
@@ -26,9 +27,9 @@ This Github documentation aims to demonstrate the end-to-end process of Personal
    - Income Trend over Time
    - Breakdown of Income by Different Sources
 
-**iii. Income AnalysisExpenditure Analysis:**
+**iii. Expenditure Analysis:**
    - Expenditure Trend over Time
-   - Breakdown of Expenses by Percentage and Amount
+   - Breakdown of Expenses by Categories showcased as both Percentage as well as Actual Amount
 
 **iv. Investments:**
    - Allocation of Funds by different Assets
@@ -50,27 +51,30 @@ In this case, the personal financial statements, stored as PDF documents, were d
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/12b1fd6b-c157-47ee-85bb-9a516ee595a7)
 
+**Challenge:** Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
 ## Data Cleaning
-Below is a preview of how the data looks in one of the yearly statements:
+Once the data is loaded, a pop-up occues containing a preview of different tables present in the connected pdf file. Please note that not all tables are required for our analysis as some contain personal information stored with the bank, we can simply ignore them and choose to not load it into our spreadsheet.
+
+Below is a preview of the same:
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/7bef3b28-7e3e-467c-8c02-4db361e40386)
 
 
 As is evident, the raw data has some quality issues which need to be addressed.
-- **Unnamed Columns:** Labeling the fields is important to seamlessly undertake analysis and create reports 
-- **Null Values:** There are cells with null values which have been mindfully discarded
-- **Date formatting:** I have formatted the date in dd-mm-yy format and created an additional column that stores the date information in mm/dd/yy (US format)
+- **Unnamed Columns:** Labeling the fields is important to seamlessly conduct analysis and create reports 
+- **Null Values:** There are cells with null values which need to be mindfully discarded
+- **Date formatting:** I have formatted the date to 'dd-mm-yy' format and created an additional column that stores the date information in mm/dd/yy (US format)
 - **Data Labelling:** A crucial requirement to conduct the required analysis is to have the description of each transaction and the categorization by 'Type' and 'Component'.
-- **Data Loading:** Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
 
 ## Reporting Wireframing
-In an attempt to create the basic layout of the dashboard and the required reports, I have used Powerpoint. This is just used as a reference. It is possible that based on the actual data, the charts layout may have to be modified. Nevertheless, it is a good starting point of how the outcome may look. Below is a break-down of the interface:
+In an effort to establish the foundational structure of the dashboard and generate the necessary reports, I used Microsoft Powerpoint for the initial design. Please note that this serves as a reference, and adjustments to the chart layout may be necessary once actual data is incorporated. Regardless, it provides a solid starting point for visualizing the potential outcome.
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
 
-![Dashboard Canvas Breakdown](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/6c436588-7c9d-492a-952e-26d9ee4a0d73)
+Below is a break-down of the interface:
 
+![Dashboard Canvas Breakdown](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/6c436588-7c9d-492a-952e-26d9ee4a0d73)
 
 
 ## Dashboard
@@ -85,11 +89,11 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 - Analyzing the line graph, it is evident that my income exhibited growth starting in 2020, with a substantial increase in 2022.
 - I started working in 2021; thus, until that year, my income predominantly consisted of savings interest on the existing amount.
 - The apparent decline in 2023 is attributed to the data capture being limited to June 2023, accounting only half of the income for that year.
-- The breakdown of income sources reveals that full-time salary constituted approximately 77% of the total income, followed by internship stipends at 18%, income earned through teaching mathematics at 4%, and savings interest income at 0.8%.
+- The breakdown of income sources reveals that **full-time salary constituted ~77% of the total income**, followed by internship stipends at 18%, income earned through teaching mathematics at 4%, and savings interest income at 0.8%.
 
 
 **ii. Observations on Expenditure:**
-- Expenses experienced a moderate decline from 2019 to 2020, but they showed a continuous upward trend from 2020 onward, indicating a positive correlation between the increase in income and the rise in expenses.
+- Expenses experienced a moderate decline from 2019 to 2020, but they showed a continuous upward trend from 2020 onward, indicating **a positive correlation between the increase in income and the rise in expenses.**
 - My primary areas of expenditure, constituting the majority of my spending, are as follows:
    - Insurance & Medical - 33% (A significant portion of this amount was allocated to an ear procedure, followed by family health insurance covering a two-year period).
    - Wedding – 16%
@@ -98,11 +102,12 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
    - The average monthly expenses amount to INR 16,000.
 
 **iii. Savings & Investments:**
-   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, constituting a mere 8% of the total income. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
+   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, implying **a mere 8% of the total income was saved/invested**. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
       - Failure to allocate sufficient funds to investments.
       - Insufficient available funds for saving and investing.
-      
-Our analysis suggests that the lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income). To identify potential areas for savings, a comparison between essential and discretionary spending was carried out. It is evident that 49% of the expenses are deemed necessary and unavoidable. However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
+   - Our analysis suggests that the **lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income).**
+      - To identify potential areas for savings, a comparison between essential and discretionary spending was carried out and it was found that **49% of the expenses are deemed necessary and unavoidable**.
+      - However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
 
 ## Conclusion
 In summary, the project effectively demonstrates the thorough process of analyzing financial statements and covers key aspects such as income, expenditure, and investments. Utilizing the right tools for data loading and cleaning, reporting wireframing, data visualization, this exericse not only highlights income trends, expenditure patterns, and savings behaviors but also addresses data quality issues before conducting the analysis. The resulting Tableau dashboard provides a visually informative representation of the financial data, offering valuable insights into my financial journey and highlighting potential areas for improvement in savings and investments.
