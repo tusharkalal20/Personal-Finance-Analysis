@@ -29,21 +29,21 @@ This Github documentation aims to demonstrate the end-to-end process of Personal
 
 **iii. Expenditure Analysis:**
    - Expenditure Trend over Time
-   - Breakdown of Expenses by Categories showcased as both Percentage as well as Actual Amount
+   - Breakdown of Expenses by Categories represented as both Percentage as well as Actual Amount
 
 **iv. Investments:**
    - Allocation of Funds by different Assets
    - Change in Savings & Investments over Time
 
 ## Tools Used
-- Data Loading and Cleaning - Microsoft Excel
+- Data Cleaning & Transformation - Microsoft Excel
 - Reporting Wireframing - Microsoft Power Point
 - Data visualization - Tableau
 
 ## Data Source
 Consolidated bank statements retrieved from the net banking portal formed the primary data source, capturing most financial transactions. It should be noted that while the data is primarily sourced from banking transactions, not all expenses are accounted for, particularly those involving small-value payments made through digital platforms like Paytm or in cash.
 
-Since the information presented in this project pertains to my personal and confidential information, not all figures are actual, for instance: income and some expenses. This version of the analysis, available as a public repository is to showcase my competency in working with data.
+Since the information presented in this project pertains to my personal and confidential information, not all figures are actual.
 
 ## Data Loading
 The data preparation stage involved loading the source data into Excel and identifying the limitations of data that may cause obstacles in the analysis and reporting. 
@@ -51,10 +51,10 @@ In this case, the personal financial statements, stored as PDF documents, were d
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/12b1fd6b-c157-47ee-85bb-9a516ee595a7)
 
-**Challenge:** Due to the confidential nature of financial statements, they are commonly encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, I utilized a PDF tool to decrypt the file, enabling the extraction and transfer of data into the spreadsheet.
+**Challenge:** Due to the confidential nature of financial statements, they are encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, all files had to be decrypted before creating of a data connection.
 
 ## Data Cleaning
-Once the data is loaded, a pop-up occues containing a preview of different tables present in the connected pdf file. Please note that not all tables are required for our analysis as some contain personal information stored with the bank, we can simply ignore them and choose to not load it into our spreadsheet.
+Once the data is loaded, a preview of all the tables present is shown. We can choose to directly load it as is or transform our data in Power Query editor and then load it. For our analysis, not all tables are required as some contain customer information stored with the bank which is not required and can be ignored.
 
 Below is a preview of the same:
 
@@ -62,13 +62,13 @@ Below is a preview of the same:
 
 
 As is evident, the raw data has some quality issues which need to be addressed.
-- **Unnamed Columns:** Labeling the fields is important to seamlessly conduct analysis and create reports 
-- **Null Values:** There are cells with null values which need to be mindfully discarded
+- **Unnamed Columns:** I used the PowerQuery editor to make the first rows as headers.
+- **Null Values:** There were rows with null values which were discarded as they just 
 - **Date formatting:** I have formatted the date to 'dd-mm-yy' format and created an additional column that stores the date information in mm/dd/yy (US format)
-- **Data Labelling:** A crucial requirement to conduct the required analysis is to have the description of each transaction and the categorization by 'Type' and 'Component'.
+- **Data Labelling:** A crucial requirement for the desired analysis is to have the information that describes each transaction.  the categorization by 'Type' and 'Component'.
 
 ## Reporting Wireframing
-In an effort to establish the foundational structure of the dashboard and generate the necessary reports, I used Microsoft Powerpoint for the initial design. Please note that this serves as a reference, and adjustments to the chart layout may be necessary once actual data is incorporated. Regardless, it provides a solid starting point for visualizing the potential outcome.
+In an effort to establish the foundational structure of the dashboard and generate the necessary reports, I used Microsoft Powerpoint for the initial design. Please note that this step serves only as a reference, and adjustments to the chart layout may be necessary once actual data is incorporated. Regardless, it provides a solid starting point for visualizing the potential outcome.
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/0136d925-7e47-4045-b2e6-19c466be02fe)
 
@@ -101,9 +101,9 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
    - The average monthly expenses amount to INR 16,000.
 
 **iii. Savings & Investments:**
-   - Over the course of five years, a total of 70,000 INR was set aside for savings and investments, implying that **only 8% of the money was saved/invested**. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
+   - Over the course of five years, a sum of 70,000 INR was set aside for savings and investments, implying that **only 8% of the money was saved/invested**. This figure is notably low and requires a substantial increase. Contributing factors to the modest savings and investments could be attributed to two main reasons:
       - Failure to allocate sufficient funds to investments.
       - Insufficient available funds for saving and investing.
    - Our analysis suggests that the **lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income).** To identify potential areas for savings, a comparison between essential and discretionary spending was carried out 
-      - It was found that **49% of the expenses are deemed necessary and unavoidable**.
+      - It was found that **49% of the total expenses are deemed necessary and unavoidable**.
       - However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
