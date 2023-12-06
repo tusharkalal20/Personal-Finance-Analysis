@@ -63,9 +63,9 @@ Below is a preview of the same:
 
 As is evident, the raw data has some quality issues which need to be addressed.
 - **Unnamed Columns:** I used the PowerQuery editor to make the first rows as headers.
-- **Null Values:** There were rows with null values which were discarded as they just 
+- **Null Values:** Every alternate row has a null value that contains time data from the preceding row which is not required for our analysis. All such rows were deleted as there was no loss of meaningful data. 
 - **Date formatting:** I have formatted the date to 'dd-mm-yy' format and created an additional column that stores the date information in mm/dd/yy (US format)
-- **Data Labelling:** A crucial requirement for the desired analysis is to have the information that describes each transaction.  the categorization by 'Type' and 'Component'.
+- **Data Labelling:** A crucial requirement for the desired analysis is to have the information that describes each transaction. This labeling of data by 'Type' and 'Component' was done by applying right filters and populating data for each category all at once. Moving forward, it would be a good practice to do this periodically (bi-weekly or monthly) as part of tracking the expenses.
 
 ## Reporting Wireframing
 In an effort to establish the foundational structure of the dashboard and generate the necessary reports, I used Microsoft Powerpoint for the initial design. Please note that this step serves only as a reference, and adjustments to the chart layout may be necessary once actual data is incorporated. Regardless, it provides a solid starting point for visualizing the potential outcome.
