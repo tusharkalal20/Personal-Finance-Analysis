@@ -58,7 +58,7 @@ Once the data is loaded, a preview of all the tables present is shown. We can ch
 
 Below is a preview of the same:
 
-![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/7bef3b28-7e3e-467c-8c02-4db361e40386)
+![Data Loading](https://github.com/tusharkalal20/Personal-Finance-Analysis/assets/67863411/d0a4f6fb-6cf1-4cec-a468-7220fe324b70)
 
 
 As is evident, the raw data has some quality issues which need to be addressed.
