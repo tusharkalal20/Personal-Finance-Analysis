@@ -51,7 +51,7 @@ In this case, the personal financial statements, stored as PDF documents, were d
 
 ![image](https://github.com/tusharkalal20/Personal-Finance-Project/assets/67863411/12b1fd6b-c157-47ee-85bb-9a516ee595a7)
 
-**Challenge:** Due to the confidential nature of financial statements, they are encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, all files had to be decrypted before creating of a data connection.
+**Challenge:** Due to the confidential nature of financial statements, they are encrypted with a password to prevent unauthorized access. This encryption, however, posed a challenge in establishing an Excel connection to the PDF files and loading the data into a spreadsheet. To address this issue, all files had to be decrypted before creating a data connection.
 
 ## Data Cleaning
 Once the data is loaded, a preview of all the tables present is shown. We can choose to directly load it as is or transform our data in Power Query editor and then load it. For our analysis, not all tables are required as some contain customer information stored with the bank which is not required and can be ignored.
@@ -94,9 +94,9 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
 **ii. Observations on Expenditure:**
 - Expenses experienced a moderate decline from 2019 to 2020, but they showed a continuous upward trend from 2020 onward, indicating **a positive correlation between the increase in income and the rise in expenses.**
 - My primary areas of expenditure, constituting the majority of my spending, are as follows:
-   - Insurance & Medical - 33% (A significant portion of this amount was allocated to an ear procedure, followed by family health insurance covering a two-year period).
+   - Insurance & Medical - 33% (includes surgery, family health insurance).
    - Wedding – 16%
-   - Utilities – 14% (includes groceries, society maintenance, internet, gas, telephone, and fuel)
+   - Utilities – 14% (includes groceries, internet, gas, telephone, and fuel)
    - Food – 9% (includes expenses from both dining out and fast-food consumption)
    - The average monthly expenses amount to INR 16,000.
 
@@ -106,4 +106,4 @@ You can visit the Tableau dashboard here [Personal Finance Dashboard](https://pu
       - Insufficient available funds for saving and investing.
    - Our analysis suggests that the **lack of investments stems from insufficient available funds for saving and investing due to high expenses (71% of the total income).** To identify potential areas for savings, a comparison between essential and discretionary spending was carried out 
       - It was found that **49% of the total expenses are deemed necessary and unavoidable**.
-      - However, a significant portion of the remaining expenses, such as those related to the wedding and frequent dining out, movies, entertainment could have either been reduced or entirely avoided.
+      - However, a significant portion of the remaining expenses, such as those related to frequent dining out, movies, entertainment could have been reduced.
